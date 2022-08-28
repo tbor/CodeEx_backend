@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "ignored": "true",
+      "type": "mssql",
+      "connectionId": "DefaultConnection"
+    },
+    "mssql2": {
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/codeex-dse-stagingdbserver/databases/CodeEx_DSE_staging_db",
+      "type": "mssql.azure",
+      "connectionId": "DefaultConnectionStaging",
+      "dynamicId": null
+    }
+  }
+}
