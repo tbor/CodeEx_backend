@@ -1,3 +1,3 @@
-# CodeEx
+# CodeEx Event Management App - backend API
 
-This is the backend Core 6 project for the SPA at https://github.com/tbor/CodeEx
+This is the repository for the .NET Core 6 API backend to the SPA at https://github.com/tbor/CodeEx
